@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+      * {
+        font-family: Outfit, sans-serif;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Test</title>
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <nav class="shadow-xl gap-10 w-full h-20 flex items-center px-28">
+      <a class="text-3xl font-semibold" href="#">logo</a>
+      <ul class="gap-10 text-lg flex w-full justify-end">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Course</a></li>
+        <li><a href="#">About Us</a></li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Blog</button>
+            <div class="dropdown-content">
+              <a href="#">Blogs</a>
+              <a href="#">Blogs Details</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+
+        <li><button class="fa-solid fa-magnifying-glass"></button></li>
+        <li><button class="fa-solid fa-cart-shopping"></button></li>
+      </ul>
+    </nav>
+    <!-- nav end -->
+    <!-- section -->
+    <div class="w-full h-screen flex">
+      <!-- card -->
+      <div
+        class="w-64 h-28 rounded-lg shadow-2xl absolute left-2/4 top-2/3 backdrop-blur-3xl"
+      >
+        <div class="flex gap-5 justify-between items-center px-6 py-4">
+          <div class="text-xl font-bold text-black">Instructor</div>
+          <div class="flex font-semibold items-center">
+            <span class="text-gray-900 text-sm">200+ Instructors</span>
+          </div>
+        </div>
+        <div class="ml-20 flex -space-x-12">
+          <span
+            class="ml-6 inline-block w-7 h-7 rounded-full bg-amber-400"
+          ></span>
+          <span class="inline-block w-7 h-7 rounded-full bg-green-500"></span>
+          <span class="inline-block w-7 h-7 rounded-full bg-purple-600"></span>
+          <span class="inline-block w-7 h-7 rounded-full bg-rose-500"></span>
+          <span class="inline-block w-7 h-7 rounded-full bg-orange-400"></span>
+        </div>
+      </div>
+      <!-- end card -->
+      <div class="left h-full w-6/12">
+        <h1
+          class="m-28 mb-5 text-6xl font-semibold backdrop-blur-sm p-4 rounded-md"
+        >
+          Get <span class="text-red-600">1000+</span> Best Online <br />
+          Courses from Woods <br />
+          membership
+        </h1>
+        <p class="mx-28 text-lg backdrop-blur-sm rounded-xl p-7">
+          Lorem ipsum. Modi architecto, earum ex at distinctio quo quasi
+          aspernatur labore assumenda consectetur dolore commodi ipsa, quaerat
+          laboriosam officia eos nihil perspiciatis?
+        </p>
+        <button
+          class="px-10 py-5 mx-28 mt-10 rounded-lg bg-sky-300 font-semibold"
+        >
+          Find Course
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+      <div class="right h-full w-6/12">
+        <img class="h-full w-full object-cover" src="img/photo.png" alt="" />
+      </div>
+    </div>
+    <!-- section end -->
+    <!-- bredcrums -->
+    <div class="w-full h-32 bg-sky-300 flex items-center justify-evenly">
+      <p class="text-2xl">
+        <i class="p-3 fa-solid fa-graduation-cap"></i>200 Courses
+      </p>
+      <p class="text-2xl">
+        <i class="p-3 fa-solid fa-chalkboard-user"></i>Top Instructors
+      </p>
+      <p class="text-2xl">
+        <i class="p-3 fa-solid fa-graduation-cap"></i>Online Certifications
+      </p>
+      <p class="text-2xl"><i class="p-3 fa-regular fa-user"></i>2000 members</p>
+    </div>
+    <!-- bredcrms end -->
+    <!-- fetures -->
+    <main class="main w-full h-screen text-center px-28 pt-28">
+      <h2 class="text-4xl pb-3 font-semibold">Top Categories</h2>
+      <h6>Lorem ipsum dolor, sit amet consectetur adipisicing.</h6>
+      <section class="grid sm:grid-cols-3 gap-10 mt-32">
+        <a class="mb-9 py-10 px-36 bg-orange-200 rounded-lg" href="#"
+          ><i class="fa-solid fa-briefcase"></i>Artificial Intelligence</a
+        >
+        <a class="mb-9 py-10 px-36 bg-amber-200 rounded-lg" href="#"
+          ><i class="fa-brands fa-slack"></i>Marketing and Communication</a
+        >
+        <a class="mb-9 py-10 px-36 bg-green-200 rounded-lg" href="#"
+          ><i class="fa-brands fa-slack"></i>Business Management</a
+        >
+
+        <a class="py-10 px-36 bg-blue-200 rounded-lg" href="#"
+          ><i class="fa-solid fa-heart-pulse"></i>Health & Fitness</a
+        >
+        <a class="py-10 px-36 bg-purple-200 rounded-lg" href="#"
+          ><i class="fa-brands fa-slack"></i>Artificial Intelligence</a
+        >
+        <a class="py-10 px-36 bg-pink-300 rounded-lg" href="#"
+          ><i class="fa-solid fa-briefcase"></i></i>Art & Design & son</a
+        >
+        <a class="py-10 px-36 bg-red-300 rounded-lg" href="#"
+          ><i class="fa-solid fa-briefcase"></i>Health & Fitness</a
+        >
+        <a class="py-10 px-36 bg-cyan-600 rounded-lg" href="#"
+          ><i class="fa-solid fa-heart-pulse"></i>Artificial Intelligence</a
+        >
+        <a class="py-10 px-36 bg-gray-400 rounded-lg" href="#"
+          ><i class="fa-brands fa-figma"></i>Art & Design & son</a
+        >
+      </section>
+    </main>
+    <!-- end -->
+    <!-- product -->
+    <div class=" bg-gray-200 h-screen w-full text-center pt-8">
+        <p class="text-xl  text-gray-400 ">Populer Courses</p>
+        <h2 class="text-3xl font-semibold">Pick A Course to Get Started</h2>
+      
+        <div class="container flex gap-11">
+          <div class="card h-3/6 w-1/6 bg-white rounded-xl">
+            <img class="w-full h-auto rounded-xl shadow-lg " src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <button class="px-4 py-2 text-white bg-gray-300 rounded-lg mt-4">Biginer</button>
+            <p class="text-2xl" >Lorem ipsum dolor sit amet.</p>
+           <p class="flex mt-4 justify-between px-8 text-gray-400"> <span><i class="fa-solid fa-meteor"></i></span> <span>12+ rating</span></p>
+           
+           <p class="flex mt-4 justify-between px-8 text-gray-400"> <span><i class="fa-solid fa-circle-play"></i>5 Lessons</span> <span><i class="fa-solid fa-user"></i>1k+ Students</span></p>
+           
+           
+          </div>
+          <div class="card h-3/6 w-1/6 bg-white rounded-xl">
+            <img class="w-full h-auto rounded-xl shadow-lg " src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <button class="px-4 py-2 text-white bg-gray-300 rounded-lg mt-4">Biginer</button>
+            <p class="text-2xl" >Lorem ipsum dolor sit amet.</p>
+           <p class="flex mt-4 justify-between px-8 text-gray-400"> <span><i class="fa-solid fa-meteor"></i></span> <span>12+ rating</span></p>
+           
+           <p class="flex mt-4 justify-between px-8 text-gray-400"> <span><i class="fa-solid fa-circle-play"></i>5 Lessons</span> <span><i class="fa-solid fa-user"></i>1k+ Students</span></p>
+           
+           
+          </div>
+          <div class="card h-3/6 w-1/6 bg-white rounded-xl">
+            <img class="w-full h-auto rounded-xl shadow-lg " src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <button class="px-4 py-2 text-white bg-gray-300 rounded-lg mt-4">Biginer</button>
+            <p class="text-2xl" >Lorem ipsum dolor sit amet.</p>
+           <p class="flex mt-4 justify-between px-8 text-gray-400"> <span><i class="fa-solid fa-meteor"></i></span> <span>12+ rating</span></p>
+           
+           <p class="flex mt-4 justify-between px-8 text-gray-400"> <span><i class="fa-solid fa-circle-play"></i>5 Lessons</span> <span><i class="fa-solid fa-user"></i>1k+ Students</span></p>
+           
+           
+          </div>
+          <div class="card h-3/6 w-1/6 bg-white rounded-xl">
+            <img class="w-full h-auto rounded-xl shadow-lg " src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <button class="px-4 py-2 text-white bg-gray-300 rounded-lg mt-4">Biginer</button>
+            <p class="text-2xl" >Lorem ipsum dolor sit amet.</p>
+           <p class="flex mt-4 justify-between px-8 text-gray-400"> <span><i class="fa-solid fa-meteor"></i></span> <span>12+ rating</span></p>
+           
+           <p class="flex mt-4 justify-between px-8 text-gray-400"> <span><i class="fa-solid fa-circle-play"></i>5 Lessons</span> <span><i class="fa-solid fa-user"></i>1k+ Students</span></p>
+           
+           
+          </div>
+        </div>
+       
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  border-bottom: 2px #ccc solid;
+}
+/* scrol bar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00000056;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+  position: absolute;
+  border-radius: 5px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.right {
+  background-image: url("https://i.pinimg.com/564x/3b/37/1a/3b371a006e3109067cc173a456a5dec3.jpg");
+  object-fit: cover;
+}
+.left {
+  background-image: url("https://i.pinimg.com/564x/7c/eb/19/7ceb1948bdfcfbc49f095668d7f26db9.jpg");
+  object-fit: cover;
+}
+.main {
+  background-image: url("https://i.pinimg.com/originals/3d/c8/e2/3dc8e25e9f2f73ac31920160adc8b576.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
